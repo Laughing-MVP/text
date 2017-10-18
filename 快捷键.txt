@@ -1,0 +1,22 @@
+pos position:relative;
+pos-s position:static; 
+pos-a position:absolute;
+pos-r position:relative;
+pos-f position:fixed;
+  
+
+bg  background:#000;
+bg+  background:#fff url() 0 0 no-repeat;
+bgc  background-color:#fff;
+
+c  color:#000;
+d  display:block;
+d-i  display:inline;
+d-ib  display:inline-block;
+d-tbc  display:table-cell;
+d-tb  display:table;
+bd  border:;
+bd+  border:1px solid #000;
+ta-c  text-align:center;
+
+list-n  list-style-type:none;

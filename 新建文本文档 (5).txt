@@ -1,0 +1,33 @@
+//这是一个将媒体查询嵌入到css选择器内的例子
+.gallery__item {
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  @media (max-width: 800px) {
+    width: 30%;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+
+  // combining both min-width and max-width queries
+  @media (min-width: 800px) and (max-width: 1200px) {
+    width: 21.25%; // (100% - 15%) / 4
+    &:nth-child (4n) {
+      margin-right: 0;
+    }
+  }
+
+  @media (min-width: 1200px){
+    width: 16%; // (100% - 20%) / 5
+    &:nth-child (5n) {
+      margin-right: 0;
+    }
+  }
+}
+//输入框里有默认值但鼠标点击后进行输入时默认值消失
+placeholder="默认值" onclick="this.placeholder=''
+
+
+background-position使用百分比来设置属性值，是以自身容器的长宽 减去 图片的长宽 乘以 百分比 所得的数值来确定图片的起始位置
