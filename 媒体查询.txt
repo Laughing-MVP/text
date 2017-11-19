@@ -1,4 +1,4 @@
-//����һ����ý���ѯǶ�뵽cssѡ�����ڵ�����
+//这是一个将媒体查询嵌入到css选择器内的例子
 .gallery__item {
   float: left;
   margin-right: 5%;
@@ -26,8 +26,8 @@
     }
   }
 }
-//���������Ĭ��ֵ����������������ʱĬ��ֵ��ʧ
-placeholder="Ĭ��ֵ" onclick="this.placeholder=''
+//输入框里有默认值但鼠标点击后进行输入时默认值消失
+placeholder="默认值" onclick="this.placeholder=''
 
 
-background-positionʹ�ðٷֱ�����������ֵ���������������ĳ��� ��ȥ ͼƬ�ĳ��� ���� �ٷֱ� ���õ���ֵ��ȷ��ͼƬ����ʼλ��
+background-position使用百分比来设置属性值，是以自身容器的长宽 减去 图片的长宽 乘以 百分比 所得的数值来确定图片的起始位置
